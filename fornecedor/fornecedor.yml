@@ -3,10 +3,13 @@ spring:
    username: sa
    password:
    url: jdbc:h2:file:C:/data/sample
- h2:
-   console:
-   enabled: true
+h2:
+    console:
+      enabled: true
       path: /console
+      settings:
+        trace: false
+        web-allow-others: false
  jpa:
    hibernate:
      ddl-auto: create-drop
