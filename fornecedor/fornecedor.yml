@@ -3,6 +3,7 @@ spring:
    username: sa
    password:
    url: jdbc:h2:file:C:/data/sample
+   driver-class-name: org.h2.Driver
 h2:
     console:
       enabled: true
